@@ -1,0 +1,57 @@
+body{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(cypher.jpg);
+	background-position: center;
+	background size: cover;
+	height: 100vh;
+}
+
+h1{
+	text-align: center;
+	color: red;
+}
+h4{
+	text-align: center;
+
+}
+h3{
+	text-align: center;
+	font-family: Courier New;
+}
+.content{
+	width: 500px;
+	margin: 80px auto;
+	display: flex
+
+}
+.tabel1{
+	
+	border: 1px solid black;
+	border-radius: 20px;
+	padding: 20px;
+	background-color: #ffffff;
+	box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+	height: 420px;
+	width: 500px;
+	font-family: century gothic;
+}
+input[type="submit"]{
+	text-align: center;
+	background: red;
+	margin: 5px 2px;
+	cursor: pointer;
+	box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+	padding: 10px 10px;
+	color: white;
+	font-family: century gothic;
+	width: 180px;
+	border: none;
+	border-radius: 5px
+}
+footer{
+	background-color:#fff;
+	border-top:3px solid #d1130d;
+	height:50px;
+	text-align:center
+
+
+}

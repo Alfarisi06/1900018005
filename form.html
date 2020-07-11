@@ -1,67 +1,74 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>BIODATA MAHASISWA</title>
-	<link rel="stylesheet" href="main.css">
+    <title>Form pendaftaran</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<form action="file.php" method="post">
-		<table border="5" width="2" cellpadding="1" >
-		<div>
-			<tr>
-				<td>Nama</td>
-				<label for="Nama"></label>
-				<td>:<input type="text" name="Nama"></td>
-			</tr>
 
-			<tr>
-				<td>Alamat</td>
-				<td>:<input type="text" name="Alamat"></td>
-			</tr>
-
-			<tr>
-				<td>Telp</td>
-				<td>:<input type="text" name="Telp"></td>
-			</tr>
-
-			<tr>
-				<td>Jenis Kelamin</td>
-				<td><input required type="radio" name="JK" value="Pria"><label for="Pria">Pria</label></td>
-				<td><input required type="radio" name="JK" value="Wanita"><label for="Wanita">Wanita</label></td>
-			</tr>
-
-			<tr>
-				<div class="main">
-					<td>Agama</td>
-					<td><div class="select">
-						<select name="Agama" id="Agama">
-						<option></option>
-						<option value="1">Islam</option>
-						<option value="2">Kristen</option>
-						<option value="3">Katholik</option>
-						<option value="4">Budha</option>
-						<option value="5">Hindu</option>
-						<option value="6">Konghucu</option>
-						</select>
-					</td>
-
-				</div>
-				</tr>
-				<tr>
-					<td>Prestasi yang pernah di raih</td>
-					<td><textarea name="Prestasi"></textarea></td>
-				</tr>
-				<tr>
-					<td><button name="Simpan" type="submit">kirim</button></td>
-					<td><button name="Batal" type="cancel">batal</button></td>
-				</tr>
-
-		</div>
-
-
-
-	</table>
-	</form>
-
+    <h1>CYPHER NET</h1>
+    <hr width="20%" align="center">
+  <div class="content">
+    <div class="tabel1">
+    <form name="tabel1" method="post" action="proses.php">
+    <table>
+    	<h4>MEMBER CYPHER NET</h4>
+        <tr>
+    	    <td valign="top">Nama</td>
+    	    <td><input type="text" name="nama" id="nama" placeholder="Masukan nama anda"></td>
+    	</tr>
+    	<tr>
+    	    <td valign="top">Username</td>
+    	    <td><input type="text" name="username" id="username" placeholder="Masukan username"></td>
+    	</tr>
+    	<tr>
+               <td valign="top">Password</td>
+               <td><input type="password" name="password" id="password" placeholder="Password"></td>
+    	</tr>
+    	<tr>
+    	    <td valign="top">Email</td>
+    	    <td><input type="email" name="email" id="email" placeholder="Masukan email"></td>
+    	</tr>
+    	<tr>
+    	    <td valign="top">Jenis Kelamin</td>
+    	    <td>
+    	    	<input type="radio" name="jenis" id="jenis" value="Laki-laki">Laki Laki<br/>
+    	    	<input type="radio" name="jenis" id="jenis" value="Perempuan">Perempuan
+    	    </td></select>
+    	</tr>
+        <tr>
+    	    <td valign="top">Billing</td>
+    	    <td><select name="billing" id="billing">
+    	        
+    	            <option>30 menit - Rp.3000</option>
+		    <option>1 jam - Rp.5000</option>
+		    <option>2 jam - Rp.10000</option>
+		    <option>2 jam 30 menit - Rp.13000</option>
+		    <option>3 jam - Rp.20000</option>
+		    <option>4 jam - Rp.30000</option>
+		    <option>6 jam - Rp.50000</option>
+		    <option>10 jam - Rp.90000</option>
+		   
+    	        </select>
+    	    </td>
+    	</tr>
+    	
+    	<tr>
+            <td>&nbsp;</td>
+    	    <td><input type="submit" value="Simpan"></td>
+    	</tr>
+  
+    </table> 
+    <ul>
+        <li><a class="active" href="form.html">Beranda</a></li>
+        <li><a href="member.php">List Member</a></li>
+    </ul>
+  
+  <h3>"WHERE IS EVERYONE HIDING"</h3>
+  </div> 
+</div>
+  <footer>
+        <p>Copyright @MuhammadAlfarisi</p>
+    </footer>
 </body>
 </html>
